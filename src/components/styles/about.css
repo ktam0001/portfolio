@@ -43,4 +43,13 @@
 
 .bigger-font{
     font-size: 5.5em;
+    position: relative;
+    top : 5vh;
+    left : 1vw;
+}
+
+.intro-p{
+    font-size: 1.2em;
+    margin-left : 1vw;
+    margin-top : 10vh;
 }
