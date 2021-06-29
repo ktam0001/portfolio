@@ -5,7 +5,7 @@
 }
 .footerC1-duplicate{
     position: relative;
-    margin-top : 6vh;
+    margin-top : 10vh;
     padding-top: 6vh;
     padding-bottom: 6vh;
 }
@@ -16,7 +16,7 @@
     /* column-gap: 8px; */
     column-gap: 3px;
     margin-top: 1vh;
-      
+    margin-right: 0;
 }
 .grid1-div1{
     background-color: rgb(68, 63, 63);  
@@ -69,4 +69,16 @@
     font-size: 1.2em;
     margin-left : 1vw;
     margin-top : 10vh;
+}
+
+.instalink{
+    margin-top : 10vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.instalink-h3{
+    font-size: 3em;
+    padding-top : 17px;
 }

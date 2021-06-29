@@ -5,7 +5,7 @@
 }
 
 .tech-div1{
-    margin-top: 3vh;
+    margin-top: 6vh;
     margin-left: 6vw;
     margin-right: 6vw;
     /* margin-bottom: 3vh; */
@@ -30,6 +30,7 @@
 }
 .nested-div-cls2{
     position: relative;
+    box-shadow: 5px 10px 8px #c7baba
 }
 .icon-label{
     position: absolute;

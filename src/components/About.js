@@ -5,6 +5,7 @@ import Avatar from './images/Avatar.jpg';
 import ProjectGrid from './ProjectGrid';
 import './styles/about.css';
 import TechGrid from './TechGrid';
+import instaprofilelogo from './icons/instagram-profilelogo.png';
 
 const  About = () => {
     return (
@@ -22,6 +23,14 @@ const  About = () => {
             </div>
             <TechGrid></TechGrid>
             <ProjectGrid></ProjectGrid>
+            <div className = 'instalink'>
+                <a href = 'https://www.instagram.com/karan_tamrakar/'>
+                    <img className = 'instalink-img' src = {instaprofilelogo} alt = 'insta_logo'/>
+                </a>
+                <a href = 'https://www.instagram.com/karan_tamrakar/'>
+                    <h3 className = 'instalink-h3'>See through my lens...</h3>
+                </a>
+            </div>
             <GenGrid css = {{
                 footer_main_div : 'footerC1 footerC1-duplicate',
                 footer_nested_div : 'footerC2',
