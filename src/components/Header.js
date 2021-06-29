@@ -10,10 +10,10 @@ const Header = () => {
                     Home
                 </a>
                 <a className="item" id = '1'>
-                    About Me
+                    About
                 </a>
                 <a className="item" id = '2'>
-                    Let's Connect
+                    Contact
                 </a>
             </div>
         </div>

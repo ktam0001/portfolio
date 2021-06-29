@@ -1,10 +1,11 @@
 import Home from "./components/Home";
 import About from './components/About';
+import Contact from "./components/Contact";
 import React from 'react';
 function App() {
   return (
     <React.Fragment>
-      <About></About>
+      <Contact></Contact>
     </React.Fragment>
   );
 }

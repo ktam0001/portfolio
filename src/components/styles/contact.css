@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+.contact-h1-div{
+    margin-top: 1vh;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(95, 88, 88, 0.5));
+    height: 60vh;    
+    width: 100vw;
+}
+.contact-h1{
+    font-size: 6em;    
+    color: rgb(53, 46, 46);
+    position: relative;
+    left : 50%;
+    margin-left: -3em;
+    top : 50%;
+    
+}
