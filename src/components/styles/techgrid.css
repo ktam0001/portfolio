@@ -1,8 +1,14 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
 .tech-div1{
     margin-top: 3vh;
     margin-left: 6vw;
     margin-right: 6vw;
-    margin-bottom: 3vh;
+    /* margin-bottom: 3vh; */
     /* position: relative; */
 }
 /* title and line distance is almost 2vh */

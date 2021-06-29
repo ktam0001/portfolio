@@ -1,0 +1,16 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+.pro-h2{
+    font-size: 3em;
+}
+
+.pro-div1{
+    margin-top: 3vh;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+

@@ -1,6 +1,8 @@
 import React from 'react'
+import GenGrid from './GenGrid';
 import Header from './Header';
 import Avatar from './images/Avatar.jpg';
+import ProjectGrid from './ProjectGrid';
 import './styles/about.css';
 import TechGrid from './TechGrid';
 
@@ -19,6 +21,12 @@ const  About = () => {
                 </div>
             </div>
             <TechGrid></TechGrid>
+            <ProjectGrid></ProjectGrid>
+            <GenGrid css = {{
+                footer_main_div : 'footerC1 footerC1-duplicate',
+                footer_nested_div : 'footerC2',
+                footer_img_label : 'labelC'	
+            }}></GenGrid>
         </React.Fragment>
     )
 }

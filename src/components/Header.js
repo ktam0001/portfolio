@@ -4,7 +4,7 @@ const Header = () => {
     //const [active, setActive] = useState();
     //target.attributes[1].nodeValue
     return (
-        <div className="ui inverted segment" style = {{'border-radius' : '0', 'margin' : 0}}>
+        <div className="ui inverted segment" style = {{'border-radius' : '0', 'margin' : 0,'width' : '100vw'}}>
             <div className="ui inverted secondary pointing menu">
                 <a className="item active" id = '0'>
                     Home
@@ -20,4 +20,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default Header;
