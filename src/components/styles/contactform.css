@@ -1,0 +1,74 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+.form-div{
+    margin-top: 16vh;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    
+}
+.main-form{
+    position : relative;
+    border :2px solid rgb(34, 32, 32, 0.4);
+    border-radius: 10px;
+    height: 80vh;
+    width: auto;
+    padding-top : 10vh;
+    padding-left : 10vw;
+    padding-right : 10vw;
+    padding-bottom : 10vh;
+}
+.input-name{
+    height : 8vh;
+    width : 40%;
+    margin-right : 5vw;
+    padding : 20px;
+    border-radius: 10px;
+    border-color : rgb(34, 32, 32, 0.4);
+}
+.input-email{
+    height : 8vh;
+    width : 52%;
+    padding : 20px;
+    border-radius: 10px;
+    border-color : rgb(34, 32, 32, 0.4);
+}
+.input-msg{
+    height : 35vh;
+    width : 100%;
+    text-overflow: auto;
+    margin-top : 10px;
+    padding : 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color : rgb(34, 32, 32, 0.4);
+}
+.msg-label{
+    font-size : 18px;
+    color : grey;
+}
+.input-msg{
+    color : rgb(53, 46, 46);
+    /* border-color: black; */
+}
+.input-submit{
+    float : right;
+    /* margin-right : 3%; */
+    height: 10%;
+    width: 30%;
+    margin-top : 2%;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.form-div-1{   
+}
+
+.form-div-2{
+    
+}

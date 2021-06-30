@@ -10,5 +10,6 @@ function App() {
   );
 }
 //<Home></Home>
+//<Contact></Contact>
 //<About></About>
 export default App;
