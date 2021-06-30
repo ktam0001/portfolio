@@ -17,6 +17,17 @@
     margin-left: -3em;
     top : 50%;
 }
+.resume_dlink{
+    display: flex;
+    justify-content : center;
+    margin-bottom : 2vh;
+}
+.resume_dlink_h3{
+    margin-left : 20px;
+}
+.resume_dlink_h3{   
+    font-size: 2em;
+}
 .input-msg{
     color : rgb(53, 46, 46);
 }

@@ -24,10 +24,10 @@ const  About = () => {
             <TechGrid></TechGrid>
             <ProjectGrid></ProjectGrid>
             <div className = 'instalink'>
-                <a href = 'https://www.instagram.com/karan_tamrakar/'>
+                <a target = '_blank' href = 'https://www.instagram.com/karan_tamrakar/'>
                     <img className = 'instalink-img' src = {instaprofilelogo} alt = 'insta_logo'/>
                 </a>
-                <a href = 'https://www.instagram.com/karan_tamrakar/'>
+                <a target = '_blank' href = 'https://www.instagram.com/karan_tamrakar/'>
                     <h3 className = 'instalink-h3'>See through my lens...</h3>
                 </a>
             </div>
