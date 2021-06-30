@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import ContactForm from './ContactForm';
+import ContactUsFooter from './ContactUsFooter';
 import './styles/contact.css';
 
 function Contact() {
@@ -11,7 +12,7 @@ function Contact() {
                 <h1 className = 'contact-h1'>Let's Connect</h1>
             </div>
             <ContactForm></ContactForm>
-            <br/><br/>
+            <ContactUsFooter></ContactUsFooter>
         </div>
     )
 }

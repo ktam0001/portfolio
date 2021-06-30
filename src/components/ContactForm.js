@@ -6,7 +6,10 @@ function ContactForm() {
     const [msg, setMsg] = useState('');
     const formHandler = (e) => {
         e.preventDefault();
-        console.log("form got submitted");
+        alert("Message Sent!");
+        setName('');
+        setMail('');
+        setMsg('');
     }
     return (
         <div className = 'form-div'>
