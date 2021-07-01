@@ -8,6 +8,8 @@
     margin-left: 6vw;
     margin-right: 6vw;
     margin-bottom: 16vh;
+    background-color: rgb(71, 63, 63, 0.4);
+    border-radius: 10px ;
     
 }
 .main-form{
@@ -45,13 +47,14 @@
     border-radius: 10px;
     border-width: 2px;
     border-color : rgb(34, 32, 32, 0.4);
+    resize: none;
 }
 .msg-label{
     font-size : 18px;
-    color : grey;
+    color : rgb(85, 82, 82);
 }
 .input-msg{
-    color : rgb(53, 46, 46);
+    color : rgb(46, 43, 43);
     /* border-color: black; */
 }
 .input-submit{
@@ -60,6 +63,8 @@
     height: 10%;
     width: 30%;
     margin-top : 2%;
+    border-radius: 10px;
+    border-color : rgb(34, 32, 32, 0.4);
 }
 .cufooter-contact-label{
     position: relative;
