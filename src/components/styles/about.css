@@ -67,8 +67,13 @@
 
 .intro-p{
     font-size: 1.2em;
-    margin-left : 1vw;
+    /* margin-left : 2.3vw; */
+    margin-left : 3.8vw;
     margin-top : 10vh;
+    margin-right : 7vw;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 5vh;
 }
 
 .instalink{

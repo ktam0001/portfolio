@@ -16,9 +16,9 @@ function ContactForm() {
             <form className = 'main-form' onSubmit = {e => formHandler(e)}>
                 <div className = 'form-div-1'>
                      
-                    <input placeHolder = 'Name' className = 'input-name' onChange = {e=>setName(e.target.value)} type = 'text' value = {name}></input>
+                    <input placeholder = 'Name' className = 'input-name' onChange = {e=>setName(e.target.value)} type = 'text' value = {name}></input>
                                     
-                    <input placeHolder = 'E-Mail' className = 'input-email' onChange = {e=>setMail(e.target.value)} type = 'email' value = {email}></input>
+                    <input placeholder = 'E-Mail' className = 'input-email' onChange = {e=>setMail(e.target.value)} type = 'email' value = {email}></input>
                 
                 </div>
                 <br/>

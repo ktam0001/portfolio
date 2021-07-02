@@ -10,7 +10,7 @@ import instaprofilelogo from './icons/instagram-profilelogo.png';
 const  About = () => {
     return (
         <React.Fragment>
-            <Header active = ''></Header>
+            <Header prop = 'About'></Header>
             <div className = 'grid1'>
                 <div className = 'grid1-div1'>
                     <img className = "center-rounded2" src={Avatar} alt="Avatar" />
@@ -18,7 +18,13 @@ const  About = () => {
                 </div>
                 <div className = 'grid1-div2'>
                     <h2 className = "bigger-font">Karan<br/>Tamrkar</h2>
-                    <p className = 'intro-p'>My name is lakhan... My name is lakhan</p>
+                    
+                        <ul className = 'intro-p'>
+                            <li>I'm a Software Developer from India, Skilled in ReactJS, JS, Python, Django and DRF.</li>
+                            <li>Flexible to adapt new technologies and love to explore them.</li>
+                            <li>A hobby photographer exploring the world through a different lens.</li>
+                        </ul>
+                    
                 </div>
             </div>
             <TechGrid></TechGrid>

@@ -14,7 +14,7 @@ import background from './images/background.jpg';
 const Home = () => {
     return (
         <React.Fragment>
-            <Header></Header>
+            <Header prop = 'Home'></Header>
             <div className = "body">
                 <img className = "bImg" src = {background} alt = "background image"></img>
                 <img className = "center-rounded" src={Avatar} alt="Avatar" />

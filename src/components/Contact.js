@@ -9,7 +9,7 @@ function Contact() {
     return (
         <React.Fragment>
             <div className = 'contact-maindiv'>
-                <Header></Header>
+                <Header prop = 'Contact'></Header>
                 <div className = 'contact-h1-div'>
                     <h1 className = 'contact-h1'>Let's Connect</h1>
                 </div>
