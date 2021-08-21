@@ -1,10 +1,11 @@
+import background from './images/background.jpg';
 import Header from "./Header";
 import GenGrid from './GenGrid';
 import React from 'react';
 import Avatar from './images/Avatar.jpg';
 import './styles/basic.css';
 // import './styles/footer.css';
-import background from './images/background.jpg';
+
 
 // const prop = {
 // 	footer_main_div : 'footerC1',

@@ -20,9 +20,9 @@ const  About = () => {
                     <h2 className = "bigger-font">Karan<br/>Tamrkar</h2>
                     
                         <ul className = 'intro-p'>
-                            <li>I'm a Software Developer from India, Skilled in ReactJS, JS, Python, Django and DRF.</li>
-                            <li>Flexible to adapt new technologies and love to explore them.</li>
-                            <li>A hobby photographer exploring the world through a different lens.</li>
+                            <li>I'm an Indian software developer who knows ReactJS, JS, Python, Django, and DRF.</li>
+                            <li>Flexible in adapting to new technology and eager to learn more about them.</li>
+                            <li>An amateur photographer exploring the world through a different lens.</li>
                         </ul>
                     
                 </div>

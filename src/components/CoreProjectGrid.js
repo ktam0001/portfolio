@@ -19,8 +19,8 @@ const CoreProjectGrid = (props) => {
             </div>
             <div className = 'core-div-2 core-div-2-img3'>
                 <h3 className = 'core-h3'>API Integration<br/><br/></h3>
-                <p className = 'core-p-1'>Key Skills : Python, Django, DRF</p>
-                <p className = 'core-p-2'>Highlights : Backend development, REST API, JWT</p>
+                <p className = 'core-p-1'>Key Skills : Python, JS, ReactJS, Django, DRF</p>
+                <p className = 'core-p-2'>Highlights : Backend development, UI development, Integrated the API with the UI, REST API, JWT</p>
             </div>
             <div className = 'core-div-2 core-div-2-img4'>
                 <h3 className = 'core-h3'>DataPower<br/><br/></h3>
