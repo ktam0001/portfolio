@@ -13,37 +13,37 @@
     grid-gap: 1vw;
 }
 .core-div-2-img1{
-    background-image: url('D:\JS\React\Project\Portfolio\portfolio\src\components\images\reactjs-backimg.png');
+    background-image: url('../images/reactjs-backimg.png');
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: center;
 }
 .core-div-2-img2{
-    background-image: url('D:\JS\React\Project\Portfolio\portfolio\src\components\images\js-backimg.png');
+    background-image: url('../images/js-backimg.png');
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: center;
 }
 .core-div-2-img3{
-    background-image: url('D:\JS\React\Project\Portfolio\portfolio\src\components\images\django-backimg.png');
+    background-image: url('../images/django-backimg.png');
     background-repeat: no-repeat;
     background-size: auto 65%;
     background-position: center;
 }
 .core-div-2-img4{
-    background-image: url('D:\JS\React\Project\Portfolio\portfolio\src\components\images\API-backimg.png');
+    background-image: url('../images/API-backimg.png');
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: center;
 }
 .core-div-2-img5{
-    background-image: url('D:\JS\React\Project\Portfolio\portfolio\src\components\images\python-backimg.png');
+    background-image: url('../images/python-backimg.png');
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: center;
 }
 .core-div-2-img6{
-    background-image: url('D:\JS\React\Project\Portfolio\portfolio\src\components\images\testing-backimg.png');
+    background-image: url('../images/testing-backimg.png');
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: center;
