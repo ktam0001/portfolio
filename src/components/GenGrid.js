@@ -4,12 +4,13 @@ import './styles/footer.css';
 
 const GenGrid = (props) => {
     const renderSkills = ()=> {
+        //second arg to map is 'index'
        return skills.map((skill, i) => {
             return (  
-            <div key={i}className = {props.css.footer_nested_div}>
-            <img src = {skill.src} alt = {skill.alt}/>
-            <label className= {props.css.footer_img_label}>{skill.skill}</label>
-        </div>
+            <div key={i} className = {props.css.footer_nested_div}>
+                <img src = {skill.src} alt = {skill.alt}/>
+                <label className= {props.css.footer_img_label}>{skill.skill}</label>
+            </div>
             )
         })
     }
