@@ -1,8 +1,8 @@
-import background from './images/background.jpg';
+import background from '../assets/images/background.jpg';
 import Header from "./Header";
 import GenGrid from './GenGrid';
 import React from 'react';
-import Avatar from './images/Avatar.jpg';
+import Avatar from '../assets/images/Avatar.jpg';
 import './styles/basic.css';
 // import './styles/footer.css';
 

@@ -1,9 +1,10 @@
-import js_icon from '../components/icons/js_icon.png';
-import reactjs_icon from '../components/icons/reactjs_icon.png';
-import python_icon from '../components/icons/python_icon.png';
-import django_icon3 from '../components/icons/django_icon3.png';
-import restapi_icon from '../components/icons/restapi_icon.png';
-import redux_icon from '../components/icons/redux_icon.png';
+import js_icon from '../assets/icons/js_icon.png';
+import reactjs_icon from '../assets/icons/reactjs_icon.png';
+import python_icon from '../assets/icons/python_icon.png';
+import django_icon3 from '../assets/icons/django_icon3.png';
+import restapi_icon from '../assets/icons/restapi_icon.png';
+import redux_icon from '../assets/icons/redux_icon.png';
+
 export const skills = [{
     src: js_icon,
     alt: 'js_icon',

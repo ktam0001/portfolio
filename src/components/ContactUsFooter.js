@@ -1,8 +1,8 @@
 import React from 'react'
-import call_icon from './icons/call_icon.png';
-import gmail_icon from './icons/gmail_icon.png';
-import linkedin_icon from './icons/linkedin_icon.png';
-import github_icon from './icons/github_icon.png';
+import call_icon from '../assets/icons/call_icon.png';
+import gmail_icon from '../assets/icons/gmail_icon.png';
+import linkedin_icon from '../assets/icons/linkedin_icon.png';
+import github_icon from '../assets/icons/github_icon.png';
 import './styles/contactusfooter.css';
 
 function ContactUsFooter() {

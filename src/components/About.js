@@ -1,11 +1,11 @@
 import React from 'react'
 import GenGrid from './GenGrid';
 import Header from './Header';
-import Avatar from './images/Avatar.jpg';
+import Avatar from '../assets/images/Avatar.jpg';
 import ProjectGrid from './ProjectGrid';
 import './styles/about.css';
 import TechGrid from './TechGrid';
-import instaprofilelogo from './icons/instagram-profilelogo.png';
+import instaprofilelogo from '../assets/icons/instagram-profilelogo.png';
 
 const  About = () => {
     return (

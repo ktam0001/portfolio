@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header';
 import ContactForm from './ContactForm';
 import ContactUsFooter from './ContactUsFooter';
-import resume_link from './icons/resume_link.png';
+import resume_link from '../assets/icons/resume_link.png';
 import './styles/contact.css';
 
 function Contact() {
