@@ -17,9 +17,11 @@ const Home = () => {
         <React.Fragment>
             <Header prop = 'Home'></Header>
             <div className = "body">
-                <img className = "bImg" src = {background} alt = "background image"></img>
-                <img className = "center-rounded" src={Avatar} alt="Avatar" />
-                <p className ="line-1 anim-typewriter">Web Developer...</p>
+                {/* <img className = "bImg" src = {background} alt = "background image"></img> */}
+                <div style = {{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '70vh'}}>
+                    <img className = "center-rounded" src={Avatar} alt="Avatar" style={{position: 'relative'}}/>
+                    <p className ="line-1 anim-typewriter" style={{position: 'relative', top:'2rem', left: '1rem'}}>Web Developer. . .&nbsp; &nbsp; &nbsp;</p>
+                </div>
             </div>
             <GenGrid css = {{
                 footer_main_div : 'footerC1',
