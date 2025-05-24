@@ -6,7 +6,7 @@ const Header = (props) => {
     //target.attributes[1].nodeValue
     
     return (
-        <div className="ui inverted segment" style = {{'borderRadius' : '0', 'margin' : 0, 'width' : '100vw'}}>
+        <div className="ui inverted segment" style = {{'borderRadius' : '0', 'margin' : 0, 'width' : '100vw', 'position' : 'fixed', 'top' : 0, 'zIndex' : 1000}}>
             <div className="ui inverted secondary pointing menu">
                 <NavLink exact className = {props.prop === 'Home' ? 'item active' : 'item'} to = '/'>
                     Home
