@@ -1,10 +1,9 @@
-import React from 'react'
 import './styles/coreprojectgrid.css';
 
 
 // core-div-2-img1
 // <img classname = 'core-div-2img' src = {ReactJSimg} alt = ''/>
-const CoreProjectGrid = (props) => {
+const CoreProjectGrid = () => {
     return (
         <div className = 'core-div-1'>
             <div className = 'core-div-2 core-div-2-img1'>

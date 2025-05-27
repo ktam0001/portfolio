@@ -17,13 +17,13 @@ const  About = () => {
                     <h2 className = "big-font">Who is this?</h2>
                 </div>
                 <div className = 'grid1-div2'>
-                    <h2 className = "bigger-font">Karan<br/>Tamrkar</h2>
+                    <p className = "bigger-font">Karan<br/>Tamrakar</p>
                     
-                        <ul className = 'intro-p'>
-                            <li>I'm an Indian software developer who knows ReactJS, JS, Python, Django, and DRF.</li>
-                            <li>Flexible in adapting to new technology and eager to learn more about them.</li>
-                            <li>An amateur photographer exploring the world through a different lens.</li>
-                        </ul>
+                    <ul className = 'intro-p'>
+                        <li>I'm an Indian software developer who knows ReactJS, JS, Python, Django, and DRF.</li>
+                        <li>Flexible in adapting to new technology and eager to learn more about them.</li>
+                        <li>An amateur photographer exploring the world through a different lens.</li>
+                    </ul>
                     
                 </div>
             </div>
@@ -33,9 +33,11 @@ const  About = () => {
                 <a target = '_blank' href = 'https://www.instagram.com/karan_tamrakar/'>
                     <img className = 'instalink-img' src = {instaprofilelogo} alt = 'insta_logo'/>
                 </a>
-                <a target = '_blank' href = 'https://www.instagram.com/karan_tamrakar/'>
-                    <h3 className = 'instalink-h3'>See through my lens...</h3>
-                </a>
+                <section className='instalink-section'>
+                    <a target = '_blank' href = 'https://www.instagram.com/karan_tamrakar/'>
+                        <p className = 'instalink-h3'>See through my lens...</p>
+                    </a>
+                </section>
             </div>
             <GenGrid css = {{
                 footer_main_div : 'footerC1 footerC1-duplicate',

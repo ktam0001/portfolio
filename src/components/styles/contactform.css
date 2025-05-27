@@ -78,8 +78,51 @@ button:focus {
     outline: none;
 }
 .form-div-1{   
+    display: flex;
+    justify-content: space-between;
 }
 
 .form-div-2{
     
+}
+
+@media screen and (max-width: 580px){
+    .form-div-1{   
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    .input-name{
+        width: 100%;
+    }
+    .input-email{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .input-msg{
+        height : 20vh;/* this updated*/
+    }
+    .main-form{
+        height: fit-content;/* this updated*/
+    }
+    .input-submit{
+        min-height: 3rem;/* this updated*/
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .input-msg{
+        height : 15vh;/* this updated*/
+    }
+    .input-submit{
+        min-height: 3rem;/* this updated*/
+    }
+    .input-name{
+        height: 3.5rem;
+    }
+    .input-email{
+        height: 3.5rem;
+    }
 }

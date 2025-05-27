@@ -14,7 +14,8 @@
   /* padding: 2rem; */
   text-align: center;
   position: relative;
-  height: 90vh;
+  /* height: 64.1vh; */
+  height: 100vh;
 }
 .center-rounded{
     height: 180px;
@@ -76,4 +77,12 @@
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255, 255, 255, 0.75);}
   to{border-right-color: transparent;}
+}
+
+@media screen and (max-width: 768px) {
+    .body{
+        height: 60.8vh;
+        /* padding: 0;
+        margin: 0; */
+    }
 }
