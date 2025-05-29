@@ -25,6 +25,32 @@
     grid-gap: 1vw;
 }
 
+@media (max-width: 768px) {
+    .generic-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 12rem 12rem 12rem;
+        grid-gap: 1rem;
+    }
+
+    .nested-div-cls2{
+        position: relative;
+        box-shadow: 2px 3px 2px #c7baba
+    }
+}
+
+@media (max-width: 460px) {
+    .generic-grid {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 12rem;
+        grid-gap: 1rem;
+    }
+
+    .nested-div-cls2{
+        position: relative;
+        box-shadow: 2px 3px 2px #c7baba
+    }
+}
+
 .nested-div{
     border : 2px solid rgba(0, 0, 0, 1);
 }

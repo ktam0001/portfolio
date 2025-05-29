@@ -11,7 +11,7 @@ function Contact() {
             <div className = 'contact-maindiv'>
                 <Header prop = 'Contact'></Header>
                 <div className = 'contact-h1-div'>
-                    <h1 className = 'contact-h1'>Let's Connect</h1>
+                    <p className = 'contact-h1'>Let's Connect</p>
                 </div>
                 <ContactForm></ContactForm>
                 <div className = 'resume_dlink'>

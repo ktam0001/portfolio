@@ -11,12 +11,12 @@
 }
 .grid1{
     display: grid;
-    grid-template-rows: 80vh;
+    grid-template-rows: 70vh;
     grid-template-columns: 50% 50%;
     /* column-gap: 8px; */
     column-gap: 3px;
-    margin-top: 1vh;
-    margin-right: 0;
+    margin-top: 2vh;
+    /* margin-right: 0; */
 }
 .grid1-div1{
     background-color: rgb(68, 63, 63);  
@@ -28,7 +28,9 @@
 }
 
 .grid1-div2{
+    position: relative;
     background-color: lightseagreen;
+    padding-top: 2vh;
     /* grid-row-start: 1;
     grid-column-start: 2;
     grid-row-end : 3; */
@@ -56,34 +58,129 @@
 }
 
 .bigger-font{
-    font-size: 5.5em;
-    position: inherit;
-    padding-top : 5vh;
-    padding-left : 1vw;
+    font-size: 5.5rem;
+    position: absolute;
+    padding-top : 2rem;
+    padding-left : 1.5rem;
+    font-weight: 800;
     /* top : 5vh;
     left : 1vw;
     right : 0; */
 }
 
 .intro-p{
-    font-size: 1.2em;
+    position: absolute;
+    top: 19rem;
+    font-size: 1.2rem;
     /* margin-left : 2.3vw; */
-    margin-left : 3.8vw;
-    margin-top : 8vh;
-    margin-right : 7vw;
+    margin-left : 3.2rem;
+    /* margin-top : ; */
+    margin-right : 3.2rem;
     text-align: justify;
     text-justify: inter-word;
     line-height: 5vh;
+    /* overflow: hidden; */
 }
 
 .instalink{
     margin-top : 10vh;
     display: flex;
     justify-content: center;
+    align-items: center;
     
 }
 
 .instalink-h3{
     font-size: 3em;
-    padding-top : 17px;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+    /* padding-top : 17px; */
+}
+
+
+
+.instalink-section{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    /* margin-top: 2vh; */
+}   
+
+/* need to work more later on -> might need to cover other smaller screen sizes as well */
+@media screen and (max-width: 768px) {
+    /* .bigger-font{
+        font-size: 4.5rem;
+        font-weight: 600;
+    } */ 
+     /* above one, need to check later about this, most probably need to change the font size of the bigger-font class and weight as well */
+    .intro-p{
+        line-height: 4.5vh;
+    }
+    /* .grid1-div2{
+        padding-top: 100px; */
+        /* grid-row-start: 1;
+        grid-column-start: 2;
+        grid-row-end : 3; */
+    /* } */
+}
+
+@media (max-width: 768px) {
+  .grid1 {
+    grid-template-columns: 100%;  /* Stack items vertically */
+    grid-template-rows: 49vh 50vh;     /* Let rows adjust based on content */
+  }
+  .instalink-h3{
+    font-size: 1.7rem;
+    font-weight: 600;
+    /* padding-top: 2rem; */
+    }
+    .instalink-img{
+        width: 5em;
+        height: 5em;
+        /* margin-right: 1rem; */
+        /* margin-top: 1rem; */
+        }
+}
+
+@media (max-width: 670px) {
+  .bigger-font{
+        font-size: 4rem;
+        font-weight: 600;
+    } 
+    .intro-p{
+        margin-top:-4rem;
+        font-size: 1.1rem;
+    }
+    .big-font{
+        margin-top: 4rem;
+    }
+    .grid1 {
+        grid-template-columns: 100%;  /* Stack items vertically */
+        grid-template-rows: 49vh fit-content;     /* Let rows adjust based on content */
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media screen and (max-width: 562px) {
+    .grid1 {
+        grid-template-columns: 100%;  /* Stack items vertically */
+        grid-template-rows: 49vh 54vh;     /* Let rows adjust based on content */
+    }
+    
+}
+
+@media screen and (max-width: 386px) {
+    .grid1 {
+        grid-template-columns: 100%;  /* Stack items vertically */
+        grid-template-rows: 49vh 64vh;     /* Let rows adjust based on content */
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .intro-p{
+        margin-top: 2rem;
+    }
 }
