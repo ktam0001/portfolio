@@ -81,10 +81,10 @@ button:focus {
     display: flex;
     justify-content: space-between;
 }
-
+/* 
 .form-div-2{
     
-}
+} */
 
 @media screen and (max-width: 580px){
     .form-div-1{   
